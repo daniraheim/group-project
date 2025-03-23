@@ -32,7 +32,7 @@ function App() {
     <Router>
         <Layout>
             <Routes>
-               <Route path="/" element={ <ListStudents studentss={students} onDelete={deleteStudent} /> }    />
+               <Route path="/" element={ <ListStudents students={students} onDelete={deleteStudent} /> }    />
 
                <Route path="/add" element={ <AddStudent onAdd={addStudent} /> }    />
                

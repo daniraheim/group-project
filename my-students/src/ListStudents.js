@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-function ListStudents({students , onDelete})
+function ListStudents({students, onDelete})
 {
     return (
         <div className="table-responsive mt-4">
