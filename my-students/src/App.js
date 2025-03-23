@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import Layout from './Layout';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AddStudent from './AddStudent'
 import EditStudent from './EditStudent';
 import ListStudents from './ListStudents';

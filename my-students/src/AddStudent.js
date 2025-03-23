@@ -5,8 +5,8 @@ import StudentForm from './StudentForm';
 function AddStudent({ onAdd }) {
   const navigate = useNavigate();
 
-  function handleAdd(newItem) {
-    onAdd(newItem);
+  function handleAdd(newStudent) {
+    onAdd(newStudent);
     navigate("/");
   }
 

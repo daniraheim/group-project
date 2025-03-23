@@ -9,7 +9,7 @@ function EditStudent({students, onupdate})
 
     const student = students.find((i) => i.id === parseInt(id));
 
-    if(!student) return <p> item not found</p>
+    if(!student) return <p> student not found</p>
 
     function handleupdate(updateStudent)
     {
