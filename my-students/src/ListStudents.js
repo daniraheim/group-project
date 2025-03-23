@@ -1,18 +1,19 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+
 function ListStudents({students, onDelete})
 {
     return (
         <div className="table-responsive mt-4">
           <table className="table table-bordered">
-            <thead className="table-dark">
+            <thead className="table-info">
               <tr>
-                <th>Name</th>
+                <th className="table-danger">Name</th>
                 <th>Age</th>
-                <th>Grade</th>
-                <th>Email</th>
-                <th>Actions</th>
+                <th className="table-warning">Grade</th>
+                <th className="table-success">Email</th>
+                <th className="table-primary">Actions</th>
               </tr>
             </thead>
             <tbody>
