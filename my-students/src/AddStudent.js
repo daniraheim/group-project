@@ -1,6 +1,6 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import StudentForm from "./StudentForm"
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import StudentForm from './StudentForm';
 
 function AddStudent({ onAdd }) {
   const navigate = useNavigate();
